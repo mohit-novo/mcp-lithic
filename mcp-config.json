@@ -1,0 +1,49 @@
+{
+  "name": "lithic-mcp",
+  "version": "1.0.0",
+  "tools": [
+    {
+      "name": "get_resource",
+      "description": "Get a specific Lithic resource by ID"
+    },
+    {
+      "name": "list_resources",
+      "description": "List resources of a specific type"
+    }
+  ],
+  "resourceTypes": {
+    "card": {
+      "description": "Payment card resource"
+    },
+    "account": {
+      "description": "User account resource"
+    },
+    "financial_account": {
+      "description": "Financial account resource"
+    },
+    "transaction": {
+      "description": "Transaction resource"
+    },
+    "event": {
+      "description": "Event resource"
+    },
+    "balance": {
+      "description": "Balance resource"
+    },
+    "dispute": {
+      "description": "Dispute resource"
+    },
+    "external_bank_account": {
+      "description": "External bank account resource"
+    },
+    "report": {
+      "description": "Report resource"
+    },
+    "webhook": {
+      "description": "Webhook resource"
+    },
+    "account_holder": {
+      "description": "Account holder resource"
+    }
+  }
+} 
