@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/mohit-novo-mcp-lithic-badge.png)](https://mseep.ai/app/mohit-novo-mcp-lithic)
+
 # Lithic MCP Server (TypeScript)
 
 A TypeScript implementation of a Model Context Protocol (MCP) server for Lithic API that provides read-only access to Lithic banking and card services.
