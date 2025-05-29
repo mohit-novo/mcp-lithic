@@ -1,5 +1,7 @@
 # Lithic MCP Server (TypeScript)
 
+[![smithery badge](https://smithery.ai/badge/@mohit-novo/mcp-lithic)](https://smithery.ai/server/@mohit-novo/mcp-lithic)
+
 A TypeScript implementation of a Model Context Protocol (MCP) server for Lithic API that provides read-only access to Lithic banking and card services.
 
 ## Features
@@ -11,6 +13,14 @@ A TypeScript implementation of a Model Context Protocol (MCP) server for Lithic 
 - Improved error handling and validation
 
 ## Quick Start
+
+### Installing via Smithery
+
+To install Lithic MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@mohit-novo/mcp-lithic):
+
+```bash
+npx -y @smithery/cli install @mohit-novo/mcp-lithic --client claude
+```
 
 ### Using Docker (Recommended)
 
