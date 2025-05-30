@@ -1,0 +1,31 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: 'node',
+      args: ['build/index.js'],
+      env: {
+        LITHIC_API_KEY: config.lithicApiKey,
+        LITHIC_API_BASE_URL: config.lithicApiBaseUrl
+      }
+    })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - lithicApiKey
+    properties:
+      lithicApiKey:
+        type: string
+        description: Your Lithic API key
+      lithicApiBaseUrl:
+        type: string
+        default: https://sandbox.lithic.com/v1
+        description: Lithic API Base URL
+  exampleConfig:
+    lithicApiKey: sk_test_1234567890abcdef
+    lithicApiBaseUrl: https://sandbox.lithic.com/v1
